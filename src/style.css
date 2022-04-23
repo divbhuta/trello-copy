@@ -1,0 +1,14 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+input {
+  border: 0px;
+  border-bottom: 1px solid #3399ff;
+}
+
+input:focus {
+  outline: none !important;
+  border-bottom: 1px solid #3399ff;
+}

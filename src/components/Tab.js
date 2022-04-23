@@ -66,10 +66,10 @@ const AddNewTab = styled.div`
      background: #0099ff;
      border-radius: 50px;
      text-align: center;
-     line-height: 50px;
-     vertical-align: middle;
      cursor: pointer;
-     
+     align-items: center;
+     justify-content: center;
+     display: flex;
    }
  
 `;
@@ -99,7 +99,6 @@ const TabItemWrapper = ({title, index, content, editItem, deleteItem, addItem, d
                   value={newContent}
                   onChange={(e) => setNewContent(e.target.value)}
                   placeholder="Add task"
-                  key={}
                 />
                 <div className="submit" onClick={() => {addItem(index, newContent); setNewContent('');}}>
                   {' '}
